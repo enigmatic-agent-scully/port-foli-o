@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'forced_squaremedium';
+  src: url('./forced_square-webfont.woff2') format('woff2'),
+    url('./forced_square-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page-container {
+  height: 100vh;
+  background-color: #baacbd;
+}
+
+h1,
+ul,
+li {
+  font-family: 'forced_squaremedium';
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  height: 3vh;
+  background-color: #c9c5cb;
+  width: 100vw;
+  color: #646e68;
+}
+.nav-item {
+  margin: 0px 20px 0px 20px;
+}
+#tab-list {
+  display: inline-flex;
+}
+
+ul {
+  padding: 0px !important;
+  margin: 0px !important;
+}

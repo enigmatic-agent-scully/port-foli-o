@@ -1,9 +1,15 @@
 import React from 'react';
+import Navbar from './../Navbar/Navbar';
+import './PageContainer.css';
 
-const PageContainer = props => {
-  return (
-    <div className='page-container'>
-      <header>AJ's Portfolio In Progress</header>
-    </div>
-  );
-};
+class PageContainer extends React.Component {
+  render() {
+    return (
+      <div className='page-container'>
+        <Navbar />
+      </div>
+    );
+  }
+}
+
+export default PageContainer;
