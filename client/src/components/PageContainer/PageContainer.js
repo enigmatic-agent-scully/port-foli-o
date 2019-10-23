@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './../Navbar/Navbar';
+import EntryForm from './../EntryForm.js/EntryForm';
 import './PageContainer.css';
 
 class PageContainer extends React.Component {
@@ -7,6 +8,7 @@ class PageContainer extends React.Component {
     return (
       <div className='page-container'>
         <Navbar />
+        <EntryForm />
       </div>
     );
   }
